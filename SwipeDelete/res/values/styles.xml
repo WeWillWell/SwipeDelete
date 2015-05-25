@@ -1,0 +1,40 @@
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@color/blackish</item>
+        <item name="android:actionBarStyle">@style/SettingsTheme.ActionBar</item>
+        <item name="android:selectableItemBackground">@drawable/item_background</item>
+    </style>
+    
+    <style name="SettingsTheme.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/SettingsTheme.TextAppearance.ActionBar.Title</item>
+        <item name="android:displayOptions">useLogo|showTitle</item>
+        <item name="android:background">@drawable/ab_hairline</item>
+    </style>
+    
+    <style name="SettingsTheme.TextAppearance.ActionBar.Title" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/actionbar_title_font_size</item>
+        <item name="android:textColor">@color/clock_red</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    
+    <style name="body">
+        <item name="android:textSize">@dimen/body_font_size</item>
+        <!-- <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item> -->
+    </style>
+    
+    <style name="ToastBarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginLeft">4dip</item>
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/panel_undo_holo</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.test.swipeablelistview.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/alarm_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey"
+    android:gravity="center_horizontal|top"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/black" />
+
+        <Switch
+            android:id="@+id/onoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textOff="@string/alarm_off"
+            android:textOn="@string/alarm_on"
+            android:thumbTextPadding="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/hairline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#28ffffff" />
+
+</com.example.test.swipeablelistview.SwipeLayout>
