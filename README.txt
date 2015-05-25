@@ -1,0 +1,1 @@
+从android4.2原生Clock应用中提出来的一个滑动删除Demo
